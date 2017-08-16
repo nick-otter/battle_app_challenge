@@ -3,6 +3,8 @@ require 'sinatra/base'
 require 'shotgun'
 require 'rack'
 
-get '/battle' do
-  "Hello Battle!"
+class App < Sinatra::Base
+  get '/' do
+    "Hello Battle!"
+  end
 end
