@@ -29,6 +29,7 @@ Midweek task, assigned by Kay Lovelace, Makers Academy.
 * [Nick Otter](nickotter.personal@gmail.com)
 * [Jenny Bacon](https://github.com/enniferbacon01/)
 * [Will Port](https://github.com/willjsporter/)
+* [Stephen Geller](https://github.com/stephengeller)
 
 ## Acknowledgments
 
