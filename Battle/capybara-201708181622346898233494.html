@@ -1,5 +1,4 @@
 
-
     <style>
       body {
         background-image: url("https://s-media-cache-ak0.pinimg.com/736x/b8/4b/32/b84b32f1e0817761970fd57ac94b5c44--like-a-sir-so-funny.jpg")
@@ -7,12 +6,9 @@
     </style>
 
 
-<% if $player1.hp < 0 %>
 <body background="https://s-media-cache-ak0.pinimg.com/736x/b8/4b/32/b84b32f1e0817761970fd57ac94b5c44--like-a-sir-so-funny.jpg" >
-<% else %>
-<body>
-<% end %>
-<h1><%= $player1.name %>: <%= $player1.hp %>HP</h1>
+
+<h1>Nick: 0HP</h1>
 
 <form action="/attack" method='post'>
   <label for="name">Attack Player 1</label>
@@ -20,7 +16,7 @@
   <input type="submit" value="Attack">
 </form>
 
-<h1><%= $player2.name %>: <%= $player2.hp %>HP</h1>
+<h1>Eli: 100HP</h1>
 
 You have attacked player 1!
 

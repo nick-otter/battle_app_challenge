@@ -25,7 +25,7 @@ feature 'feature test' do
     sign_in_and_play
     expect(page).to have_content 'Nick: 100HP'
     expect(page).to have_content 'Eli: 100HP'
-    save_and_open_page
+    #save_and_open_page
   end
 
   scenario 'attack player 1' do
@@ -39,6 +39,12 @@ feature 'feature test' do
     sign_in_and_play
     click_button('Attack')
     expect(page).to have_content 'You have attacked player 1!'
+  end
+
+  scenario 'background pic at 0HP' do
+    sign_in_and_play
+    10.times { click_button('Attack') }
+    save_and_open_page
   end
 end
 
