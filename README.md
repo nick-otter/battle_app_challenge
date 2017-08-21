@@ -1,4 +1,4 @@
-# Intro To The Web Challenge
+# Battle App Challenge
 Midweek task, assigned by Kay Lovelace, Makers Academy.
 
 #### Challenge Concepts
